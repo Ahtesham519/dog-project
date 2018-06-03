@@ -1,3 +1,55 @@
+Meets Specifications
+
+:smiley: Remarkable Work. You have acquired all the important concepts from this project. A lot of work has been done on this project and you should be proud of yourself. Wish you all the best.
+
+AK 30/5/2018
+
+Files Submitted
+The submission includes all required files.
+
+Step 1: Detect Humans
+The submission returns the percentage of the first 100 images in the dog and human face datasets with a detected human face.
+
+The submission opines whether Haar cascades for face detection are an appropriate technique for human detection.
+
+Your view is right, though most of the time we expect that our 'intelligent interface' should be at least able to handle small occlusions and invariance in the ​rotation, light etc. Haar cascade in that respect is not a very good choice. HOG detectors, and deep learning models perform better in this case.
+
+Step 2: Detect Dogs
+The submission returns the percentage of the first 100 images in the dog and human face datasets with a detected dog.
+
+Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+The submission specifies a CNN architecture.
+
+The submission specifies the number of epochs used to train the algorithm.
+
+The trained model attains at least 1% accuracy on the test set.
+
+Step 5: Create a CNN to Classify Dog Breeds
+The submission downloads the bottleneck features corresponding to one of the Keras pre-trained models (VGG-19, ResNet-50, Inception, or Xception).
+
+The submission specifies a model architecture.
+
+The submission details why the chosen architecture succeeded in the classification task and why earlier attempts were not as successful.
+
+Good work comparing different architectures.
+
+The submission compiles the architecture by specifying the loss function and optimizer.
+
+The submission uses model checkpointing to train the model and saves the model weights with the best validation loss.
+
+The submission loads the model weights that attained the least validation loss.
+
+Accuracy on the test set is 60% or greater.
+
+The submission includes a function that takes a file path to an image as input and returns the dog breed that is predicted by the CNN.
+
+Step 6: Write Your Algorithm
+The submission uses the CNN from Step 5 to detect dog breed. The submission has different output for each detected image type (dog, human, other) and provides either predicted actual (or resembling) dog breed.
+
+Step 7: Test Your Algorithm
+The submission tests at least 6 images, including at least two human and two dog images.
+
+
 [//]: # (Image References)
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
